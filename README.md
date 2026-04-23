@@ -22,6 +22,7 @@ Aplicacion en Python para detectar emociones faciales en tiempo real desde webca
     - [Reporte no tecnico](#reporte-no-tecnico)
   - [Personalizacion](#personalizacion)
   - [Problemas comunes](#problemas-comunes)
+  - [Notebooks](#notebooks)
 
 ## Descripcion general
 
@@ -213,3 +214,6 @@ Tambien puede ajustar frecuencia de inferencia en `core/runtime.py`:
 - Rendimiento bajo:
   - reduzca resolucion de camara o cierre aplicaciones en paralelo.
   - aumente `predict_every` para inferir con menos frecuencia.
+
+## Notebooks
+Los notebooks utilizados para todo el proceso de entrenamiento del modelo se encuentran en [este repositorio](https://github.com/FerchoAlone/NotebooksKatSan).
